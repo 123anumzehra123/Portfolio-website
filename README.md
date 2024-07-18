@@ -1,4 +1,4 @@
-Project Name: Portfolio Website (or your preferred name)
+Project Name: Portfolio Website
 
 Description: This is a responsive portfolio website built with HTML, CSS, and JavaScript. It showcases skills and experience in a visually appealing and user-friendly way.
 
