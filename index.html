@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Porfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello! I'm</h3>
+            <h1>Anum Zehra</h1>
+            <h3>And I'm a <span>Frontend Developer</span></h3>
+            <p>Have a look at my CV</p>
+                <a href="#" class="button">Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="blob.webp" alt="" class="blob">
+            <img src="img (2).png" alt="" class="anum">
+        </div>
+    </section>
+        <!-- about section -->
+    <section class="about" id="about">
+        <!-- <div class="about-img">
+            <img src="file.png" alt="">
+
+        </div> -->
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer!</h3>
+            <p>I am a seasoned Frontend Web Developer with a passion for <span id="dots">...
+                </span><span id="more">crafting
+                    visually appealing and user-friendly interfaces. Over the years,
+                    I have honed my skills in HTML, CSS, and JavaScript to bring
+                    designs to life and create seamless, engaging user experiences.
+                    My expertise extends to responsive design, ensuring seamless functionality across all devices.
+                     Whether it's building intuitive interfaces or optimizing performance,
+                      I'm dedicated to creating web solutions that not only meet but exceed e xpectations.
+                       Let's collaborate to bring your digital vision to reality
+                     with a website that combines aesthetics, functionality, and a seamless user experience</span></p>
+                <button class="button" onclick="myFunction()" id="myBtn">Read more</button>
+        </div>
+    </section>
+
+    <!-- services section -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+            <i class='bx bx-code'></i>
+                <h3>Web development</h3>
+                <p>Web development is my passion and expertise, a field where creativity 
+                    meets precision to craft seamless digital experiences.
+                      </p>
+                      <a href="#" class="button">Read More</a>
+                </div>
+
+                <div class="services-box">
+                    <i class='bx bx-paint'></i>
+                    
+                    <h3>Graphic Designing</h3>
+                    <p> I specialize in creating impactful visual stories 
+                        through stunning logos and banners, blending aesthetics
+                         with powerful communication.</p>
+                        <a href="#" class="button">Read More</a>
+                    </div>
+
+                    <div class="services-box">
+                        <i class='bx bxs-pencil'></i>
+                        <h3>Content Writing</h3>
+                        <p>As a content creator, I bring words to life, weaving them into compelling 
+                            narratives. I'm committed to delivering
+                             content that meets your specific needs.  </p>
+                            <a href="#" class="button">Read More</a>
+                        </div>
+        </div>
+    </section>
+        <!-- portfolio section -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <img src="web.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Web Design</h4>
+                <p>Have a look at my Portfolio</p>
+                <a href="#"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="adobe.webp" alt="">
+            <div class="portfolio-layer">
+                <h4>Graphic Design</h4>
+                <p>Have a look at my Portfolio</p>
+                <a href="#"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="content.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Content Writing</h4>
+                <p>Have a look at my Portfolio</p>
+                <a href="#"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="photography.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Photography</h4>
+                <p>Have a look at my Portfolio</p>
+                <a href="#"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+    </div>
+    </section>
+        <!-- contact section -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Contact Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="button">
+        </form>
+    </section>
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by Anum Zehra | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+<!-- typed js -->
+    <!-- <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script> -->
+
+    <!-- javascript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
